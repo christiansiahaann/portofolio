@@ -13,8 +13,6 @@ function App() {
       setShow(!isShow)
   };
 
-class App extends Component {
-  render() {
     return (
       <div className="demo-big-content">
         <Layout>
@@ -27,11 +25,8 @@ class App extends Component {
                   Karya 
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem href="/Week10">
-                      Log Aktivitas Harian
-                  </DropdownItem>
-                  <DropdownItem href="/Week10_1">
-                    Log Tugas Mahasiswa
+                  <DropdownItem href="/tampilan_homestay">
+                      Homestay
                   </DropdownItem>
                 </DropdownMenu>
               </Dropdown>
@@ -47,11 +42,8 @@ class App extends Component {
                   Karya 
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem href="/Week10">
-                      Log Aktivitas Harian
-                  </DropdownItem>
-                  <DropdownItem href="/Week10_1">
-                    Log Tugas Mahasiswa
+                 <DropdownItem href="/tampilan_homestay">
+                      Homestay
                   </DropdownItem>
                 </DropdownMenu>
               </Dropdown>
@@ -66,7 +58,6 @@ class App extends Component {
       </div>
     );
   }
- }
-}
+
 
 export default App;
